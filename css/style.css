@@ -1,0 +1,18 @@
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.directors .img ,.Executive-Team .img, .Consultants .img{
+    width: 150px;
+    height: 150px;
+}
+
+.header{
+padding-right: 7%;
+}
+.Executive-Team  , .Consultants{
+    margin-top: 8%;
+}
+
+

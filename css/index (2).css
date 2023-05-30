@@ -1,0 +1,582 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FFFFFF;
+}
+
+@import url(../assest/WebFonts/css/style.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FFFFFF;
+}
+.box{
+    position: absolute;
+width: 100%;
+height: 797px;
+left: 0px;
+top: 0px;
+
+background: rgba(0, 152, 74, 0.04);
+}
+.box .char{
+    position: absolute;
+width: 600px;
+height: 741px;
+left: 62px;
+top: 56px;
+}
+.box .logo{
+    position: absolute;
+left: 74.16%;
+right: 11.54%;
+top: 11.58%;
+bottom: 77.5%;
+}
+.box p{
+    position: absolute;
+width: 103px;
+height: 76px;
+left: 1340px;
+top: 98px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 157.5%;
+/* identical to box height, or 76px */
+
+text-align: right;
+
+color: #343434;
+}
+
+
+.box .sp1{
+    position: absolute;
+width: 766px;
+height: 120px;
+left: 680px;
+top: 205px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+/* or 40px */
+
+text-align: right;
+
+/* gray color 3 */
+
+color: #626262;
+}
+
+
+
+.box .sp2{
+    position: absolute;
+width: 761px;
+height: 120px;
+left: 685px;
+top: 341px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+/* or 40px */
+
+text-align: right;
+
+/* gray color 3 */
+
+color: #626262;
+}
+
+
+
+
+.box .sp3{
+    position: absolute;
+width: 757px;
+height: 120px;
+left: 683px;
+top: 477px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+/* or 40px */
+
+text-align: right;
+
+/* gray color 3 */
+
+color: #626262;
+}
+
+
+
+
+.mini-box1{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 237px;
+height: 96px;
+left: 1200px;
+top: 649px;
+
+background: #FFFFFF;
+border: 0.5px solid #959595;
+border-radius: 12px;
+}
+
+.mini-box1 p{
+    position: absolute;
+width: 147px;
+height: 49px;
+left: -1.5px;
+top: 15.5px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 201.5%;
+
+text-align: right;
+
+/* gray color 3 */
+
+color: #626262;
+}
+.mini-box1 img{
+    
+position: absolute;
+left: 71.14%;
+right: 37.5%;
+top: 21.59%;
+bottom: 78.41%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mini-box2{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 237px;
+height: 96px;
+left: 900px;
+top: 649px;
+
+background: #FFFFFF;
+border: 0.5px solid #959595;
+border-radius: 12px;
+}
+.mini-box2 p{
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    left: 2px;
+    top: 15.5px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 201.5%;
+    text-align: right;
+    
+    
+    color: #626262;
+    
+}
+.mini-box2 img{
+    
+    position: absolute;
+    left: 71.14%;
+    right: 37.5%;
+    top: 21.59%;
+    bottom: 78.41%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mini-box3{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 237px;
+height: 96px;
+left: 590px;
+top: 649px;
+
+background: #FFFFFF;
+border: 0.5px solid #959595;
+border-radius: 12px;
+}
+
+
+.mini-box3 p{
+    position: absolute;
+    width: 149px;
+    height: 49px;
+    left: 5px;
+    top: 9.5px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 201.5%;
+
+    text-align: right;
+    letter-spacing: -0.007em;
+    
+    /* gray color 3 */
+    
+    color: #626262;
+    
+}
+.mini-box3 img{
+    
+    position: absolute;
+    left: 71.14%;
+    right: 37.5%;
+    top: 21.59%;
+    bottom: 78.41%;
+    }
+
+
+    /******************* end-box**** */
+
+
+
+.box2 img{
+    position: absolute;
+width: 598px;
+height: 425px;
+left: 45px;
+top: 1037px;
+}
+.box2 span{
+    position: absolute;
+width: 204px;
+height: 57px;
+left: 1176px;
+top: 1007px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 157.5%;
+/* identical to box height, or 57px */
+
+text-align: right;
+
+color: #343434;
+}
+.box2 .pp-1{
+    position: absolute;
+width: 594px;
+height: 360px;
+left: 786px;
+top: 1121px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+/* or 40px */
+
+text-align: right;
+letter-spacing: -0.2px;
+
+color: #626262;
+
+}
+.box2 .pp-2{
+    position: absolute;
+    width: 648px;
+    height: 160px;
+    left: 732px;
+    top: 1295px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    
+    text-align: right;
+    letter-spacing: -0.2px;
+    
+    color: #626262;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box3 img{
+    position: absolute;
+    width: 513px;
+    height: 450px;
+    left: 881px;
+    top: 1570px;
+}
+.box3 span{
+    position: absolute;
+    width: 175px;
+    height: 57px;
+    left: 533px;
+    top: 1571px;
+    
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 157.5%;
+    /* identical to box height, or 57px */
+    
+    text-align: right;
+    
+    color: #343434;
+}
+.box3 .pp-1{
+    position: absolute;
+    width: 651px;
+    height: 160px;
+    left: 57px;
+    top: 1675.19px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    
+    text-align: right;
+    
+    color: #626262;
+}
+.box3 .pp-2{
+    position: absolute;
+width: 649px;
+height: 160px;
+left: 56px;
+top: 1860px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+/* or 40px */
+
+text-align: right;
+
+color: #626262;
+}
+
+
+
+
+
+
+
+
+
+.box-2{
+    position: absolute;
+    width: 1320px;
+    height: 502px;
+    left: 110px;
+    top: 2133px;
+    
+    background: rgba(0, 152, 74, 0.04);
+    border-radius: 12px;
+}
+.box-2 h1{
+    position: relative;
+width: 827px;
+margin: 0px 0px 65px;
+height: 57px;
+left: 127px;
+top: 20px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 157.5%;
+/* identical to box height, or 57px */
+
+text-align: right;
+
+color: #343434;
+}
+.box-2 .row{
+    margin: 15px;
+    position: relative;
+    left: 4rem;
+}
+.box-2 .card{
+    width: 424px;
+    height: 144px;
+}
+.box-2 .card img{
+    position: relative;
+    width: 50px;
+    left: 78.07%;
+    right: 4.25%;
+    top: 15.31%;
+    bottom: 23.61%;
+}
+.box-2 .card .card-title{
+    position: absolute;
+left: 48.82%;
+right: 25.71%;
+top: 17.67%;
+bottom: 66.1%;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 157.5%;
+/* or 25px */
+
+text-align: right;
+
+color: #343434;
+}
+.box-2 .card-text{
+    position: absolute;
+left: 3.77%;
+right: 25.71%;
+top: 40.06%;
+bottom: 16.19%;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 142.5%;
+/* or 21px */
+
+text-align: right;
+letter-spacing: -0.6px;
+
+/* gray color 3 */
+
+color: #626262;
+}

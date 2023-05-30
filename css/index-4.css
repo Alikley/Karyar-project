@@ -1,0 +1,207 @@
+
+@import url(../assest/WebFonts/css/style.css);
+.banner{
+    position: absolute;
+width: 100%;
+height: 933px;
+left: 0px;
+top: 0px;
+
+background: rgba(0, 152, 74, 0.04);
+}
+.banner .box{
+    position: absolute;
+width: 1096px;
+height: 716px;
+left: 212px;
+top: 107px;
+
+background: #FFFFFF;
+border-radius: 12px;
+}
+
+.banner .box p{
+    position: absolute;
+width: 369px;
+height: 50px;
+left: 70px;
+top: 3rem;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 157.5%;
+/* or 50px */
+
+text-align: right;
+
+color: #343434;
+}
+.form input{
+    position: relative;
+    width: 45vh;
+    top: 10rem;
+    right: 40.8rem;
+}
+.form label{
+    position: relative;
+left: 70px;
+right: 40.8rem;
+top:160px;
+bottom: 80.91%;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 180.5%;
+/* gray color 3 */
+
+color: #626262;
+}
+.ch input{
+    position: relative;
+left:  900px;
+right: -27rem;
+top: 12rem;
+bottom: 8.33%;
+color: #FFFFFF;
+background: #00984A;
+}
+.ch label{
+    position: absolute;
+width: 110px;
+height: 10px;
+left: 305px;
+top: 385.2px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 180.5%;
+
+
+color: #626262;
+}
+.ch input:checked {
+    background-color: #00984A;
+    border-color: #00984A;
+}
+form button{
+    position: relative;
+    height: 66px;
+    width: 45vh;
+left: 1px;
+right: 41rem;
+top: 234px;
+border-radius: 12px;
+padding: 18px 153px 18px 153px;
+}
+form span{
+    position: relative;
+width: 305px;
+height: 29px;
+left: 0px;
+right: 20rem;
+top: 323px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 180.5%;
+/* identical to box height, or 29px */
+
+text-align: right;
+
+color: #00984A;
+}
+.box2{
+    position: absolute;
+    width: 520px;
+    height: 684px;
+    left: 787.5px;
+    top: 108px;
+    
+    /* box gradiant */
+    
+    background: linear-gradient(180deg, #F8E4EC 0%, rgba(248, 228, 236, 0) 87.43%);
+    border-radius: 12px;
+}
+.box2 .box-header{
+    position: absolute;
+width: 357px;
+height: 38px;
+left: 81px;
+top: 49px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 157.5%;
+/* identical to box height, or 38px */
+
+text-align: right;
+
+color: #343434;
+}
+.box2 span{
+    position: absolute;
+width: 437px;
+height: 96px;
+left: 41px;
+top: 160px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 157.5%;
+/* or 32px */
+
+text-align: center;
+
+color: #626262;
+}
+.box2 .box-footer{
+    position: absolute;
+width: 308px;
+height: 74px;
+left: 105px;
+top: 354px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 184%;
+/* or 37px */
+
+text-align: center;
+
+color: #626262;
+}
+.box2 button{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 153px;
+    gap: 10px;
+    
+    position: absolute;
+    height: 66px;
+    left: 20.58%;
+    right: 20.58%;
+    top: calc(50% - 66px/2 + 159px);
+    color: #FFFFFF;
+    background: #D34B7F;
+    border-radius: 12px;
+}
